@@ -159,7 +159,7 @@ class Main extends Component {
                 <tr>
                 <th scope="row">0</th>
                 <td></td>
-                <td><img src={eth} height="100px" /></td>
+                <td><img src={eth} alt="ethereum" height="100px" /></td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -170,7 +170,7 @@ class Main extends Component {
                 <tr>
                 <th scope="row">1</th>
                 <td></td>
-                <td><img src={btc} height="110px" /></td>
+                <td><img src={btc} alt="bitcoin" height="110px" /></td>
                 <td></td>
                 <td></td>
                 <td></td>
