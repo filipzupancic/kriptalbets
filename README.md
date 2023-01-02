@@ -1,0 +1,2 @@
+# kriptalbets
+Pikado betting dapp
