@@ -1,8 +1,8 @@
 {
-  "name": "faze-betting",
+  "name": "kriptalbets",
   "version": "0.1.0",
   "description": "An Ether Betting App",
-  "author": "fazalmittu1800@gmail.com",
+  "author": "filipz",
   "dependencies": {
     "@headlessui/react": "^1.7.7",
     "@heroicons/react": "^2.0.13",
