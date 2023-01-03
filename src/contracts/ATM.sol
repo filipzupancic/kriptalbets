@@ -13,11 +13,6 @@ contract ATM {
         balances[msg.sender] += msg.value;
     }
 
-    function depositBro(uint val) public payable {
-        emit Deposit(msg.sender, val*1000000000000000000);
-        balances[msg.sender] += val*1000000000000000000;
-    }
-
     function withdraw(uint amount) public {
         require(balances[msg.sender] >= amount, "Insufficient funds");
         emit Withdrawal(msg.sender, amount);
@@ -32,7 +27,6 @@ contract ATM {
     }
 
     // In a Batch
-
     function transfer(address[] memory receivers, uint amount) public {
         require(balances[msg.sender] >= receivers.length * amount, "Insufficient funds");
         for (uint i=0; i<receivers.length; i++) {

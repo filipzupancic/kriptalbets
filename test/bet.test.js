@@ -1,7 +1,7 @@
 const { assert } = require("chai");
 const _deploy_contracts = require("../migrations/2_deploy_contracts");
 
-const bet = artifacts.require("./bet.sol");
+const bet = artifacts.require("./Bet.sol");
 
 contract('bet', (accounts) => {
     let Bet
